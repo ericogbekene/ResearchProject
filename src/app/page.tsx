@@ -62,7 +62,7 @@ export default function Home() {
   const [projects, setProjects] = useState<Project[]>([])
   /*const [loading, setIsLoading] = useState<boolean>(true)*/
   const todoUrl = 'https://jsonplaceholder.typicode.com/todos/'
-  const projectsUrl = 'https://researchpro.onrender.com/projects/'
+  const projectsUrl = 'https://researchpro.onrender.com/api/v1/projects/'
 
   useEffect(() => {
     const getResults = async () => {

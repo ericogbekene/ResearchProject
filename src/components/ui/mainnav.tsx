@@ -25,8 +25,8 @@ export default function Navbar() {
           <Link href="/" className="block md:inline-block text-white hover:text-gray-300 mt-4 md:mt-0 md:ml-6">
             Home
           </Link>
-          <Link href="/departments" className="block md:inline-block text-white hover:text-gray-300 mt-4 md:mt-0 md:ml-6">
-            Departments
+          <Link href="/about" className="block md:inline-block text-white hover:text-gray-300 mt-4 md:mt-0 md:ml-6">
+            About Us
           </Link>
           <Link href="/projects" className="block md:inline-block text-white hover:text-gray-300 mt-4 md:mt-0 md:ml-6">
             Projects
@@ -34,11 +34,9 @@ export default function Navbar() {
           <Link href="/hire-writer" className="block md:inline-block text-white hover:text-gray-300 mt-4 md:mt-0 md:ml-6">
             Hire-Writer
           </Link>
-          <Link href="/about" className="block md:inline-block text-white hover:text-gray-300 mt-4 md:mt-0 md:ml-6">
-            About
-          </Link>
+          
           <Link href="/contact" className="block md:inline-block text-white hover:text-gray-300 mt-4 md:mt-0 md:ml-6">
-            Contact
+            Contact Us
           </Link>
           
         </div>
