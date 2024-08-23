@@ -1,6 +1,10 @@
+import Navbar from "@/components/ui/mainnav";
+
 const HireWriter = () => {
-  return (<>
-    <div className="flex flex-col items-center justify-between">
+  return (
+  <>
+    <Navbar/>
+    <div className="flex flex-col items-center justify-between mx-9 bg-slate-300">
       <h1>Hire a Writer</h1>
       <form className="max-w-sm mx-auto">
         <div className="mb-5">
